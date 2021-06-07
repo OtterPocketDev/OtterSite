@@ -422,10 +422,10 @@ ul {
   &.theme-color {
     background-image: linear-gradient(
       to right,
-      #19d3dc,
-      #18e7d3,
-      #18e7d3,
-      #19d2dd
+      #198edc,
+      #63c0fd,
+      #80beee,
+      #75d3ff
     );
   }
   &:hover {
@@ -1057,15 +1057,20 @@ ul {
     position: absolute;
     top: 185px;
     left: 75px;
+    filter: hue-rotate(15deg);
   }
   .home-circle2 {
     position: absolute;
     top: 180px;
+    filter: hue-rotate(15deg);
+
     right: 188px;
   }
   .home-circle3 {
     position: absolute;
     top: 280px;
+    filter: hue-rotate(15deg);
+
     right: 203px;
   }
 }
@@ -1165,12 +1170,15 @@ ul {
 
 .about-decor {
   .about-circle1 {
+    filter: hue-rotate(15deg);
     position: absolute;
     top: auto;
     right: 140px;
     bottom: 170px;
   }
   .about-circle2 {
+    filter: hue-rotate(15deg);
+
     position: absolute;
     top: auto;
     right: 5px;
@@ -2631,7 +2639,6 @@ iframe.video-play {
   align-items: center;
   justify-content: center;
   background: #fafafa;
-  background-image: url(../assets/images/auth-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   .innerpage-decor {
@@ -2864,7 +2871,7 @@ iframe.video-play {
       width: 100px;
       height: 100px;
       line-height: 2.3;
-      background-image: linear-gradient(to right, #19d3dc, #18e7d3, #18e7d3);
+      background-image: linear-gradient(to right, #27c5ff, #42bef8, #41c0fa);
     }
   }
 }

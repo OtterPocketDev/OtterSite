@@ -15,10 +15,12 @@
   "dependencies": {
     "@xkeshi/vue-countdown": "^1.0.1",
     "add": "^2.0.6",
+    "apexcharts": "^3.27.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "or": "^0.2.0",
     "v-owl-carousel": "^1.0.7",
     "vue": "^2.5.17",
+    "vue-apexcharts": "^1.6.1",
     "vue-awesome": "^3.1.3",
     "vue-head": "^2.0.12",
     "vue-inputmask": "^0.2.1",
@@ -34,7 +36,6 @@
     "yarn": "^1.10.1"
   },
   "devDependencies": {
-    "@tygr/vue-pie-chart": "^1.0.7",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
@@ -65,7 +66,7 @@
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.6.0",
     "nightwatch": "^0.9.12",
     "node-notifier": "^5.1.2",
     "node-sass": "^4.9.3",

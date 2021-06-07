@@ -18,8 +18,14 @@
               Exchange Liquitidy locked until 2022. Dev Wallet Locked for 6
               months.
             </h3>
-            <!-- <pie-chart :plot="plot"></pie-chart> -->
+            <VueApexCharts
+              width="380"
+              type="donut"
+              :options="chartOptions"
+              :series="series"
+            ></VueApexCharts>
           </div>
+
           <button
             type="button"
             class="btn btn-custom theme-color theme-color"
@@ -34,47 +40,44 @@
   </div>
 </template>
 <script>
-// import PieChart from "@tygr/vue-pie-chart";
+import VueApexCharts from "vue-apexcharts";
 
 export default {
-  name: "Price"
-  // components: {
-  //   PieChart
-  // },
-  // data: () => ({
-  //   plot: [
-  //     {
-  //       value: 15,
-  //       color: "#46cdfd",
-  //       label: "Dev Wallet",
-  //       id: 1
-  //     },
-  //     {
-  //       value: 5,
-  //       color: "#46cdfd",
-  //       label: "Marketing Wallet",
-  //       id: 1
-  //     },
-  //     {
-  //       value: 10,
-  //       color: "green",
-  //       label: "Community rewards",
-  //       id: 2
-  //     },
-  //     {
-  //       value: 60,
-  //       color: "#fd46eb",
-  //       label: "DEX Exchange Liquitidy",
-  //       id: 3
-  //     },
-  //     {
-  //       value: 10,
-  //       color: "#fd46eb",
-  //       label: "CEX Exchange Liquitidy",
-  //       id: 4
-  //     }
-  //   ]
-  // })
+  name: "Chart",
+  components: {
+    VueApexCharts
+  },
+  data() {
+    return {
+      series: [60, 15, 5, 13, 7],
+      chartOptions: {
+        chart: {
+          type: "donut"
+        },
+        labels: [
+          "DEX Liquitidy",
+          "CEX Liquitidy",
+          "Community Rewards",
+          "Dev Wallet",
+          "Marketing Wallet"
+        ]
+      },
+
+      responsive: [
+        {
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 100
+            },
+            legend: {
+              position: "bottom"
+            }
+          }
+        }
+      ]
+    };
+  }
 };
 </script>
 <style>

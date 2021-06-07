@@ -20,7 +20,6 @@
       </div>
     </div>
     <!-- Tap on Ends -->
-    <color />
   </div>
 </template>
 <script>

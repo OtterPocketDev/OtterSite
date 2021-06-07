@@ -78,7 +78,7 @@
                     <img src="../assets/images/icon/5.png" alt="icon" />
                   </div>
                   <div class="feature-subtitle">
-                    <h3>Polygon Netowrk</h3>
+                    <h3>Polygon Network</h3>
                   </div>
                   <div>
                     <p>

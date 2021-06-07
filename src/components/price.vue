@@ -18,7 +18,7 @@
               Exchange Liquitidy locked until 2022. Dev Wallet Locked for 6
               months.
             </h3>
-            <pie-chart :plot="plot"></pie-chart>
+            <!-- <pie-chart :plot="plot"></pie-chart> -->
           </div>
           <button
             type="button"
@@ -34,47 +34,47 @@
   </div>
 </template>
 <script>
-import PieChart from "@tygr/vue-pie-chart";
+// import PieChart from "@tygr/vue-pie-chart";
 
 export default {
-  name: "Price",
-  components: {
-    PieChart
-  },
-  data: () => ({
-    plot: [
-      {
-        value: 15,
-        color: "#46cdfd",
-        label: "Dev Wallet",
-        id: 1
-      },
-      {
-        value: 5,
-        color: "#46cdfd",
-        label: "Marketing Wallet",
-        id: 1
-      },
-      {
-        value: 10,
-        color: "green",
-        label: "Community rewards",
-        id: 2
-      },
-      {
-        value: 60,
-        color: "#fd46eb",
-        label: "DEX Exchange Liquitidy",
-        id: 3
-      },
-      {
-        value: 10,
-        color: "#fd46eb",
-        label: "CEX Exchange Liquitidy",
-        id: 4
-      }
-    ]
-  })
+  name: "Price"
+  // components: {
+  //   PieChart
+  // },
+  // data: () => ({
+  //   plot: [
+  //     {
+  //       value: 15,
+  //       color: "#46cdfd",
+  //       label: "Dev Wallet",
+  //       id: 1
+  //     },
+  //     {
+  //       value: 5,
+  //       color: "#46cdfd",
+  //       label: "Marketing Wallet",
+  //       id: 1
+  //     },
+  //     {
+  //       value: 10,
+  //       color: "green",
+  //       label: "Community rewards",
+  //       id: 2
+  //     },
+  //     {
+  //       value: 60,
+  //       color: "#fd46eb",
+  //       label: "DEX Exchange Liquitidy",
+  //       id: 3
+  //     },
+  //     {
+  //       value: 10,
+  //       color: "#fd46eb",
+  //       label: "CEX Exchange Liquitidy",
+  //       id: 4
+  //     }
+  //   ]
+  // })
 };
 </script>
 <style>

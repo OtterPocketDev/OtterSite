@@ -40,7 +40,7 @@
               class="btn btn-custom theme-color theme-color"
               style="margin-left: 2em;"
             >
-              <a href="#" style="color:white;"> Pocket </a>
+              Pocket
             </button></b-nav-item
           >
         </b-navbar-nav>

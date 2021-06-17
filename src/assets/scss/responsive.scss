@@ -167,19 +167,14 @@
     padding: 20px;
     &:hover .team-social li {
       &:nth-child(1) {
-        animation: none;
       }
       &:nth-child(2) {
-        animation: none;
       }
       &:nth-child(3) {
-        animation: none;
       }
       &:nth-child(4) {
-        animation: none;
       }
       &:nth-child(5) {
-        animation: none;
       }
     }
   }
@@ -815,7 +810,6 @@
     width: 67%;
   }
   section * {
-    animation: none !important;
   }
   .mobile-light-right,
   .mobile-light-left {
@@ -1393,7 +1387,6 @@
   }
   .animated-circle {
     &:after {
-      animation: none;
       box-shadow: none;
     }
   }
@@ -2087,74 +2080,52 @@
   }
   section {
     .about-contain {
-      animation: none;
     }
     .about-phone {
-      animation: none;
     }
     .feature-phone {
-      animation: none;
     }
     .screenshot-contain {
-      animation: none;
     }
     .price-block {
-      animation: none;
     }
     .contact-right {
-      animation: none;
     }
     .contact-us {
-      animation: none;
     }
     .footer-text {
-      animation: none;
     }
     .contact-subscribe {
-      animation: none;
     }
     .feature-style li {
       &:nth-child(1) {
-        animation: none;
       }
       &:nth-child(2) {
-        animation: none;
       }
       &:nth-child(3) {
-        animation: none;
       }
     }
     .team-carousel .team-item {
-      animation: none;
     }
     .blog-carousel .blog-item {
-      animation: none;
     }
     .testimonial .testimonial-item {
-      animation: none;
     }
     .bottom-section .footer-style {
-      animation: none;
     }
     .map iframe {
-      animation: none;
     }
   }
   .team-block:hover .team-social li {
     &:nth-child(1) {
-      animation: none;
     }
     &:nth-child(2) {
-      animation: none;
     }
     &:nth-child(3) {
-      animation: none;
     }
     &:nth-child(4) {
-      animation: none;
     }
     &:nth-child(5) {
-      animation: none;
     }
   }
 }

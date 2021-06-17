@@ -31,10 +31,11 @@
               </p>
               <p>
                 Further marketing from presale proceeds. Continued App
-                Development.
+                Development. (Sorting, folders, features etc...)
               </p>
               <p>
-                Otter Pocket v2 App. Public file sharing platform.
+                Otter Pocket v2 App. Public file sharing platform (View
+                files/videos others have posted and tip content creators).
               </p>
             </div>
           </div>

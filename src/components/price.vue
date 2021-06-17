@@ -9,6 +9,14 @@
           </div>
           <div class="col-sm-12">
             <h3>
+              Contract Address:
+              <a
+                href="https://polygonscan.com/token/0xB3b74aF14b8CF2d5a7da045575fb6Db161Cdb871"
+                >0xB3b74aF14b8CF2d5a7da045575fb6Db161Cdb871</a
+              >
+            </h3>
+
+            <h3>
               Total Supply: 1,000,000
             </h3>
             <h3>
@@ -29,9 +37,38 @@
           <button
             type="button"
             class="btn btn-custom theme-color theme-color"
-            style="margin-top: 20px;"
+            style="margin-left: 5em; margin-top: 5em;"
           >
-            Read More
+            <a
+              style="color: white;"
+              href="https://polygonscan.com/token/tokenholderchart/0xB3b74aF14b8CF2d5a7da045575fb6Db161Cdb871"
+            >
+              View Wallets
+            </a>
+          </button>
+          <button
+            type="button"
+            class="btn btn-custom theme-color theme-color"
+            style="margin-left: 5em; margin-top: 5em;"
+          >
+            <a
+              style="color: white;"
+              href="https://bafybeie6ruyr3ic7ardnfqxuq5tljet554y57i4jwrkxgy7yyklqofognm.ipfs.dweb.link/"
+            >
+              View Token Contract Source Code
+            </a>
+          </button>
+          <button
+            type="button"
+            class="btn btn-custom theme-color theme-color"
+            style="margin-left: 5em; margin-top: 5em;"
+          >
+            <a
+              style="color: white;"
+              href="https://bafybeie6ruyr3ic7ardnfqxuq5tljet554y57i4jwrkxgy7yyklqofognm.ipfs.dweb.link/"
+            >
+              View Dapp Contract Source Code
+            </a>
           </button>
         </div>
       </div>

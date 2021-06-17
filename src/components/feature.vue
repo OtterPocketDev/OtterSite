@@ -36,6 +36,11 @@
                 wanted to censor your media? And all charge an expensive monthly
                 price or have a file size restriction. That's where
                 <span> Otter Pocket</span> comes in.
+                <strong
+                  >Your Files are stored in a decentralized fashion on the IPFS
+                  protocol, and the location of those files (in a hash) are
+                  stored in your blockchain wallet on the Polygon Netowrk!
+                </strong>
               </p>
             </div>
             <div class="col-12 col-md-6">
@@ -103,13 +108,15 @@
                 </li>
               </ul>
             </div>
-            <h2>Check out your new Pocket</h2>
+            <h2>Learn More about the power of IPFS</h2>
             <button
               type="button"
               class="btn btn-custom theme-color theme-color"
-              style="margin-left: 2em;"
+              style="margin-left: 2em; cursor: pointer; z-index: 100; position: relative;"
             >
-              <a href="#" style="color:white;"> Pocket </a>
+              <a href="https://ipfs.io/#how" style="color:white;">
+                IPFS
+              </a>
             </button>
           </div>
         </div>

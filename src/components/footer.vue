@@ -3,13 +3,13 @@
     <!-- Footer Section start -->
     <div class="copyright-section index-footer bg-light">
       <div style="display:flex; justify-content:center;">
-        <a href="http://www.google.com"
+        <a href="https://twitter.com/Otter_pocket"
           ><img width="30em" src="../assets/images/icon/twitter.png" alt="logo"
         /></a>
 
-        <img width="30em" src="../assets/images/icon/medium.png" alt="logo" />
-
-        <img width="30em" src="../assets/images/icon/telegram.png" alt="logo" />
+        <a href="https://t.me/otterpocketstorage"
+          ><img width="30em" src="../assets/images/icon/telegram.png" alt="logo"
+        /></a>
       </div>
     </div>
     <!-- Footer Section End -->

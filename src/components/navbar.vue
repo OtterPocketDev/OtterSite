@@ -24,10 +24,7 @@
               alt="logo"
             />
           </b-nav-item>
-          <b-nav-item href="https://otterpocket.medium.com/">
-            <a href=""></a
-            ><img width="30em" src="../assets/images/icon/medium.png" alt="logo"
-          /></b-nav-item>
+
           <b-nav-item href="https://t.me/otterpocketstorage"
             ><img
               width="30em"

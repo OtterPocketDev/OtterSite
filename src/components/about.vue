@@ -2,21 +2,21 @@
   <!-- About Start -->
   <section id="about" class="about">
     <div class="about-decor">
-      <div class="about-circle1" style="z-index: 100;">
+      <div class="about-circle1" style="z-index: 2;">
         <img src="../assets/images/team1.png" alt="team1" />
       </div>
-      <div class="about-circle2" style="z-index: 100;">
+      <div class="about-circle2" style="z-index: 1;">
         <img src="../assets/images/main-banner1.png" alt="banner1" />
       </div>
     </div>
     <div class="container">
       <div class="row ">
         <div class="col-md-5">
-          <div class="about-contain">
+          <div class="about-contain" style="position: relative; z-index: 99;">
             <div>
               <h2 class="title">What is <span> Otter Pocket?</span></h2>
               <p class="caption-about">
-                Otter Pocket is a file storage and sharing application on on the
+                Otter Pocket is a file storage and sharing application on the
                 Polygon Network blockchain and the IPFS protocol. What does that
                 Mean?
               </p>
@@ -85,14 +85,6 @@
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="top-margin">
-                <button
-                  type="button"
-                  class="btn btn-custom theme-color theme-color"
-                >
-                  view more
-                </button>
               </div>
             </div>
           </div>

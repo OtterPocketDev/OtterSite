@@ -27,7 +27,8 @@
                 efforts.
               </p>
               <p>
-                App Goes Live! And IDO of $Otter on Quickswap.
+                App Goes Live! And IDO of $Otter on Quickswap. Listing on CMC
+                and CoinGecko. Applying for CEX.
               </p>
               <p>
                 Further marketing from presale proceeds. Continued App

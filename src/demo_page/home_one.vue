@@ -72,32 +72,7 @@
                     class="caption-img"
                   />
                   <div class="clock-box">
-                    <h3>We are launching soon!</h3>
-                    <p>
-                      We go live soon! Along with our Presale of the Otter Token
-                    </p>
-                    <countdown :time="364 * 23 * 60 * 60 * 1000">
-                      <template>
-                        <ul class="p-0 m-0">
-                          <li>
-                            <span id="days">{{ countdown.days }}</span
-                            >days
-                          </li>
-                          <li>
-                            <span id="hours">{{ countdown.hours }}</span
-                            >Hours
-                          </li>
-                          <li>
-                            <span id="minutes">{{ countdown.minutes }}</span
-                            >Minutes
-                          </li>
-                          <li>
-                            <span id="seconds">{{ countdown.seconds }}</span
-                            >Seconds
-                          </li>
-                        </ul>
-                      </template>
-                    </countdown>
+                    <h3>Presale is Live!</h3>
                     <button
                       type="button"
                       class="btn btn-custom theme-color theme-color"

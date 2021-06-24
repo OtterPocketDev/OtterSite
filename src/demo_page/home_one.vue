@@ -30,9 +30,9 @@
                     class="btn btn-custom theme-color theme-color"
                   >
                     <a
-                      href="https://dxsale.app/app/pages/defipresale?saleID=14&chain=Matic"
+                      href="https://bafybeicraghuyizsk3fh3luwftd2tmi7mmk7ogljp65cdyashuxdz4vasq.ipfs.infura-ipfs.io/"
                       style="color:white;"
-                      >Presale
+                      >WhitePaper
                     </a>
                   </button>
                 </div>
@@ -72,25 +72,16 @@
                     class="caption-img"
                   />
                   <div class="clock-box">
-                    <h3>Presale is Live!</h3>
+                    <h3>Launching Soon</h3>
+
                     <button
                       type="button"
                       class="btn btn-custom theme-color theme-color"
                     >
                       <a
-                        href="https://dxsale.app/app/pages/defipresale?saleID=14&chain=Matic"
+                        href="https://t.me/otterpocketstorage"
                         style="color:white;"
-                        >Presale
-                      </a>
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-custom theme-color theme-color"
-                    >
-                      <a
-                        href="https://dxsale.app/app/pages/defipresale?saleID=14&chain=Matic"
-                        style="color:white;"
-                        >How to Participate
+                        >Stay Up to Date
                       </a>
                     </button>
                   </div>

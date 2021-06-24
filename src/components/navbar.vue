@@ -17,6 +17,8 @@
           <b-nav-item href="#about">about</b-nav-item>
           <b-nav-item href="#team">Roadmap</b-nav-item>
           <b-nav-item href="#tokenomics">Tokenomics</b-nav-item>
+                    <b-nav-item href="https://bafybeicraghuyizsk3fh3luwftd2tmi7mmk7ogljp65cdyashuxdz4vasq.ipfs.infura-ipfs.io/">White Paper</b-nav-item>
+
           <b-nav-item href="https://twitter.com/Otter_pocket">
             <img
               width="30em"

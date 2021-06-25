@@ -7,12 +7,12 @@
       </div>
     </div>
     <div class="about-decor">
-      <div class="about-circle1" style="z-index: 100;">
+      <div class="about-circle1" style="z-index: 1;">
         <img src="../assets/images/team1.png" alt="team1" />
       </div>
       <div
         class="about-circle2"
-        style="z-index: 100; position: absolute; left: 10em;"
+        style="z-index: 0; position: absolute; left: 10em;"
       >
         <img src="../assets/images/main-banner1.png" alt="banner1" />
       </div>
@@ -99,7 +99,7 @@
                   <div class="feature-subtitle">
                     <h3>100% secure</h3>
                   </div>
-                  <div>
+                  <div >
                     <p>
                       Using the p2p file storage of IPFS your data is
                       uncensorable, and permanent.
@@ -108,7 +108,7 @@
                 </li>
               </ul>
             </div>
-            <h2>Learn More about the power of IPFS</h2>
+            <h2 style="padding: 1em;">Learn More about the power of IPFS</h2>
             <button
               type="button"
               class="btn btn-custom theme-color theme-color"

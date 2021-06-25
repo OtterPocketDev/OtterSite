@@ -8,8 +8,8 @@
   >
     <div class="container">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand class="navbar-brand" :to="{ name: 'Main_page' }"
-        ><img width="300em" src="../assets/images/Otter.png" alt="logo"
+      <b-navbar-brand class="navbar-brand" href="#home"
+        ><img width="300em" src="../assets/images/Otter-Title.png" alt="logo"
       /></b-navbar-brand>
       <b-collapse class="default-nav" is-nav id="nav_collapse">
         <b-navbar-nav class="navbar-nav ml-auto" id="mymenu">
@@ -17,7 +17,7 @@
           <b-nav-item href="#about">about</b-nav-item>
           <b-nav-item href="#team">Roadmap</b-nav-item>
           <b-nav-item href="#tokenomics">Tokenomics</b-nav-item>
-                    <b-nav-item href="https://bafybeicraghuyizsk3fh3luwftd2tmi7mmk7ogljp65cdyashuxdz4vasq.ipfs.infura-ipfs.io/">White Paper</b-nav-item>
+                    <b-nav-item href="https://bafybeidelwr4chdla3owxz3lo6zhi5ba5iuu2wpn6zlt4az3h73utw2yti.ipfs.infura-ipfs.io/">White Paper</b-nav-item>
 
           <b-nav-item href="https://twitter.com/Otter_pocket">
             <img

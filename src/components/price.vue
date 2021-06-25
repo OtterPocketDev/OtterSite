@@ -11,8 +11,8 @@
             <h3>
               Contract Address:
               <a
-                href="https://polygonscan.com/token/0xB3b74aF14b8CF2d5a7da045575fb6Db161Cdb871"
-                >0xB3b74aF14b8CF2d5a7da045575fb6Db161Cdb871</a
+                href="https://polygonscan.com/"
+                >Coming Soon!</a
               >
             </h3>
 
@@ -20,10 +20,11 @@
               Total Supply: 1,000,000
             </h3>
             <h3>
-              1 $Otter Burnt Per Upload
+              $OTTER Burned on every upload
             </h3>
             <h3>
-              Exchange Liquitidy locked until 2022. Dev Wallet Locked for 6
+              Exchange Liquitidy locked. 
+              Dev Wallet Locked for 6
               months.
             </h3>
             <VueApexCharts
@@ -34,7 +35,7 @@
             ></VueApexCharts>
           </div>
 
-          <button
+          <!-- <button
             type="button"
             class="btn btn-custom theme-color theme-color"
             style="margin-left: 5em; margin-top: 5em;"
@@ -57,7 +58,7 @@
             >
               View Token Contract Source Code
             </a>
-          </button>
+          </button> -->
           <button
             type="button"
             class="btn btn-custom theme-color theme-color"
@@ -65,9 +66,9 @@
           >
             <a
               style="color: white;"
-              href="https://bafybeie6ruyr3ic7ardnfqxuq5tljet554y57i4jwrkxgy7yyklqofognm.ipfs.dweb.link/"
+              href="https://bafybeidelwr4chdla3owxz3lo6zhi5ba5iuu2wpn6zlt4az3h73utw2yti.ipfs.infura-ipfs.io/"
             >
-              View Dapp Contract Source Code
+              View WhitePaper
             </a>
           </button>
         </div>

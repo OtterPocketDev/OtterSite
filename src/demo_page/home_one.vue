@@ -30,7 +30,7 @@
                     class="btn btn-custom theme-color theme-color"
                   >
                     <a
-                      href="https://bafybeicraghuyizsk3fh3luwftd2tmi7mmk7ogljp65cdyashuxdz4vasq.ipfs.infura-ipfs.io/"
+                      href="https://bafybeidelwr4chdla3owxz3lo6zhi5ba5iuu2wpn6zlt4az3h73utw2yti.ipfs.infura-ipfs.io/"
                       style="color:white;"
                       >WhitePaper
                     </a>
@@ -64,27 +64,17 @@
         <div class="row">
           <div class="col-xl-6 offset-xl-3">
             <div class="fadeInLeft-land-caption text-center">
+                                               <h2>LATEST NEWS</h2> 
+
               <div class="">
+
                 <div>
                   <img
-                    src="../assets/images/otter-icon.png"
+                    src="../assets/images/AirDropTwitter.png"
                     alt="caption-img"
                     class="caption-img"
                   />
-                  <div class="clock-box">
-                    <h3>Launching Soon</h3>
 
-                    <button
-                      type="button"
-                      class="btn btn-custom theme-color theme-color"
-                    >
-                      <a
-                        href="https://t.me/otterpocketstorage"
-                        style="color:white;"
-                        >Stay Up to Date
-                      </a>
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -164,5 +154,9 @@ export default {
 }
 .color {
   color: #46cdfd;
+}
+.caption-img {
+  width: 100%;
+  border-radius: 3em;
 }
 </style>

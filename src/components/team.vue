@@ -18,13 +18,13 @@
             <h2 class="title">Otter <span>RoadMap</span></h2>
           </div>
           <div class="col-sm-12">
-            <div class="timeline">
+            <div class="time-line">
               <p>
-                Initial Development Phase. App creation and website design.
+                Initial Development Phase. App creation and website design. 
               </p>
               <p>
-                Presale of $Otter goes live on DxSale. Initial marketing
-                efforts.
+               Initial marketing efforts. Airdrops, AMA etc...
+               Presale of $Otter goes live on our launch site. 
               </p>
               <p>
                 App Goes Live! And IDO of $Otter on Quickswap. Listing on CMC
@@ -52,7 +52,7 @@ export default {
 </script>
 <style scoped>
 .time-line {
-  margin: 0 2em;
+  margin: 0 3em;
 }
 p {
   font-size: 1em;

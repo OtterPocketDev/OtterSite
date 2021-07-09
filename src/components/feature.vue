@@ -88,7 +88,7 @@
                   <div>
                     <p>
                       Harnessing the incredibly low transaction fees of the
-                      Polygon Netowrk
+                      Polygon Network
                     </p>
                   </div>
                 </li>

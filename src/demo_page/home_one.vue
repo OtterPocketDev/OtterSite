@@ -30,9 +30,9 @@
                     class="btn btn-custom theme-color theme-color"
                   >
                     <a
-                      href="https://bafybeidelwr4chdla3owxz3lo6zhi5ba5iuu2wpn6zlt4az3h73utw2yti.ipfs.infura-ipfs.io/"
+                      href="https://app.otterpocket.io"
                       style="color:white;"
-                      >WhitePaper
+                      >OtterPocket
                     </a>
                   </button>
                 </div>
@@ -64,17 +64,16 @@
         <div class="row">
           <div class="col-xl-6 offset-xl-3">
             <div class="fadeInLeft-land-caption text-center">
-                                               <h2>LATEST NEWS</h2> 
-
+              <h1 class="color">LATEST OTTER NEWS</h1> 
               <div class="">
-
-                <div>
-                  <img
-                    src="../assets/images/AirDropTwitter.png"
-                    alt="caption-img"
-                    class="caption-img"
-                  />
-
+                <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
+                 <img src="../assets/images/icon/OPIC5.png" width="30" alt=""> Succesful Airdrop June 25th
+                </div>
+                <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
+                 <img src="../assets/images/icon/OPIC5.png" width="30" alt=""> Presale Completed July 6th
+                </div>
+                <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
+                  Otter IDO coming soon...
                 </div>
               </div>
             </div>
@@ -93,7 +92,7 @@
     <!-- testimonial Section End -->
     <Team />
     <!-- Contact Section start -->
-
+      <Roadmap />
     <!-- Contact Section End -->
 
     <!--Subscribe section start-->

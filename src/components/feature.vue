@@ -21,7 +21,7 @@
       <div class="row">
         <div class="file-upload">
           <img
-            src="../assets/images/files_upload.png"
+            src="../assets/images/OPWG2V4.png"
             class="img-fluid"
             alt=""
           />

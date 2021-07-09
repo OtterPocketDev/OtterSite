@@ -28,7 +28,7 @@
                         <div class="icon-hover">
                           <img
                             width="25px"
-                            src="../assets/images/icon/playlist.png"
+                            src="../assets/images/icon/OPIC1.png"
                             alt="easy-to-customized"
                           />
                         </div>
@@ -42,7 +42,7 @@
                         <div class="icon-hover">
                           <img
                             width="25px"
-                            src="../assets/images/icon/bag-on-head.png"
+                            src="../assets/images/icon/OPIC4.png"
                             alt="easy-to-use"
                           />
                         </div>
@@ -60,7 +60,7 @@
                         <div class="icon-hover">
                           <img
                             width="25px"
-                            src="../assets/images/icon/interactive.png"
+                            src="../assets/images/icon/OPIC2.png"
                             alt="Awasome-Design"
                           />
                         </div>
@@ -74,7 +74,7 @@
                         <div class="icon-hover">
                           <img
                             width="25px"
-                            src="../assets/images/icon/social-media.png"
+                            src="../assets/images/icon/OPIC3.png"
                             alt="SEO-Friendly"
                           />
                         </div>
@@ -90,10 +90,10 @@
           </div>
         </div>
         <div class="col-md-7 d-medium-none">
-          <div class="about-right">
+          <div class="">
             <div class="about-phone">
               <img
-                src="../assets/images/decentralized.jpg"
+                src="../assets/images/about.png"
                 class="img-fluid"
                 alt="aboutus"
               />

@@ -11,8 +11,8 @@
             <h3>
               Contract Address:
               <a
-                href="https://polygonscan.com/"
-                >Coming Soon!</a
+                href="https://polygonscan.com/token/0xE718EDA678AFF3F8d1592e784652BcbEeb49e352"
+                >0xE718EDA678AFF3F8d1592e784652BcbEeb49e352</a
               >
             </h3>
 
@@ -35,14 +35,14 @@
             ></VueApexCharts>
           </div>
 
-          <!-- <button
+          <button
             type="button"
             class="btn btn-custom theme-color theme-color"
             style="margin-left: 5em; margin-top: 5em;"
           >
             <a
               style="color: white;"
-              href="https://polygonscan.com/token/tokenholderchart/0xB3b74aF14b8CF2d5a7da045575fb6Db161Cdb871"
+              href="https://polygonscan.com/token/tokenholderchart/0xE718EDA678AFF3F8d1592e784652BcbEeb49e352"
             >
               View Wallets
             </a>
@@ -54,11 +54,11 @@
           >
             <a
               style="color: white;"
-              href="https://bafybeie6ruyr3ic7ardnfqxuq5tljet554y57i4jwrkxgy7yyklqofognm.ipfs.dweb.link/"
+              href="https://polygonscan.com/address/0x501C5074bEd28987d50ce493018d7ccdE6B7C2d9"
             >
               View Token Contract Source Code
             </a>
-          </button> -->
+          </button>
           <button
             type="button"
             class="btn btn-custom theme-color theme-color"
@@ -66,7 +66,7 @@
           >
             <a
               style="color: white;"
-              href="https://bafybeidelwr4chdla3owxz3lo6zhi5ba5iuu2wpn6zlt4az3h73utw2yti.ipfs.infura-ipfs.io/"
+              href="https://bafybeifxz3hiqpfh7qwpwg4xyww5axkjcozmm4736clden57m5px3z2hdu.ipfs.infura-ipfs.io/"
             >
               View WhitePaper
             </a>

@@ -2,42 +2,83 @@
   <div id="app">
     <section id="team" class="team">
       <div class="team-decor">
-        <div class="team-circle1">
-          <img :src="'../assets/images/team1.png'" alt="" />
-        </div>
-        <div class="team-circle2">
-          <img :src="'../assets/images/team3.png'" alt="" />
-        </div>
-        <div class="team-circle3">
-          <img :src="'../assets/images/team.png'" alt="" />
-        </div>
+        <div class="team-circle1"><img :src='"../assets/images/team1.png"' alt=""></div>
+        <div class="team-circle2"><img :src='"../assets/images/team3.png"' alt=""></div>
+        <div class="team-circle3"><img :src='"../assets/images/team.png"' alt=""></div>
       </div>
       <div class="container">
         <div class="row ">
           <div class="col-sm-12">
-            <h2 class="title">Otter <span>RoadMap</span></h2>
+            <h2 class="title">Our Otter <span>Team</span></h2>
           </div>
           <div class="col-sm-12">
-            <div class="time-line">
-              <p>
-                Initial Development Phase. App creation and website design. 
-              </p>
-              <p>
-               Initial marketing efforts. Airdrops, AMA etc...
-               Presale of $Otter goes live on our launch site. 
-              </p>
-              <p>
-                App Goes Live! And IDO of $Otter on Quickswap. Listing on CMC
-                and CoinGecko. Applying for CEX.
-              </p>
-              <p>
-                Further marketing from presale proceeds. Continued App
-                Development. (Sorting, folders, features etc...)
-              </p>
-              <p>
-                Otter Pocket v2 App. Public file sharing platform (View
-                files/videos others have posted and tip content creators).
-              </p>
+            <div>
+              <carousel :className='"team-carousel"' :loop=true
+                        :margin=30
+                        :items=3
+                        :nav=false
+                        :dots=true
+                        :dotsEach=true
+                        :autoplay=false
+                        :responsive="{0:{items:1,margin:5},600:{items:1,margin:5},768:{items:2},992:{items:3},1000:{items:3}}"
+              >
+                  <div class="team-item">
+                    <div class="team-block">
+                      <div class="team-box">
+                        <div class="team-avtar">
+                          <img :src='"../assets/images/avtar/James.jpg"' alt="">
+                        </div>
+                        <div class="team-text">
+                          <h3>James Bass</h3>
+                          <h6>designer</h6>
+                        </div>
+                        <div class="overlay">
+                          <ul class="team-social">
+                            <li><a href="https://www.linkedin.com/in/james-morgan1111/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="team-item">
+                    <div class="team-block">
+                      <div class="team-box">
+                        <div class="team-avtar">
+                          <img :src='"../assets/images/avtar/Profile1.png"' alt="">
+                        </div>
+                        <div class="team-text">
+                          <h3>Gavin Pierce</h3>
+                          <h6>devloper</h6>
+                        </div>
+                        <div class="overlay">
+                          <ul class="team-social">
+                            <li><a href="https://www.linkedin.com/in/gavin-pierce-65136b216/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-item">
+                    <div class="team-block">
+                      <div class="team-box">
+                        <div class="team-avtar">
+                          <img :src='"../assets/images/avtar/haypic.png"' alt="">
+                        </div>
+                        <div class="team-text">
+                          <h3>Hayling Pierce</h3>
+                          <h6>Designer</h6>
+                        </div>
+                        <div class="overlay">
+                          <ul class="team-social">
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </carousel>
             </div>
           </div>
         </div>
@@ -46,63 +87,8 @@
   </div>
 </template>
 <script>
+
 export default {
-  name: "Team"
-};
+  name: 'Team'
+}
 </script>
-<style scoped>
-.time-line {
-  margin: 0 3em;
-}
-p {
-  font-size: 1em;
-  line-height: 1.75em;
-  border-top: 3px solid;
-  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
-  border-image-slice: 1;
-  border-width: 3px;
-  margin: 0;
-  padding: 40px;
-  counter-increment: section;
-  position: relative;
-  color: black;
-}
-p:before {
-  content: counter(section);
-  position: absolute;
-  border-radius: 50%;
-  padding: 30px 30px 40px 30px;
-  height: 20px;
-  background-color: #46cdfd;
-  text-align: center;
-  line-height: 1em;
-  color: white;
-  font-size: 1em;
-}
-p:nth-child(odd) {
-  border-right: 3px solid;
-  text-align: right;
-  padding-left: 0;
-}
-p:nth-child(odd):before {
-  left: 100%;
-  margin-left: -20px;
-}
-p:nth-child(even) {
-  border-left: 3px solid;
-  padding-right: 0;
-}
-p:nth-child(even):before {
-  right: 100%;
-  margin-right: -20px;
-}
-p:first-child {
-  border-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-p:last-child {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-</style>

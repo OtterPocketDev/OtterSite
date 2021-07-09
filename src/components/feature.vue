@@ -39,7 +39,7 @@
                 <strong
                   >Your Files are stored in a decentralized fashion on the IPFS
                   protocol, and the location of those files (in a hash) are
-                  stored in your blockchain wallet on the Polygon Netowrk!
+                  stored in your blockchain wallet on the Polygon Network!
                 </strong>
               </p>
             </div>

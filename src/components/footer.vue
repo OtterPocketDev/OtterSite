@@ -13,7 +13,7 @@
           ><img width="30em" src="../assets/images/icon/telegram.png" alt="logo"
         /></a>
       </div>
-              Hosted on IPFS - OtterTeam 2021
+              Hosted on IPFS - OtterTeam 2021 | Otterpocket@protonmail.com
 
     </div>
     <!-- Footer Section End -->

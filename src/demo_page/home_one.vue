@@ -14,8 +14,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-5">
+          <div class="">
             <div class="home-contain">
               <div>
                 <h1>
@@ -39,19 +38,15 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 offset-md-1">
-            <div class="home-right">
-              <!-- Tile js start -->
-              <Tile :image="'launch.png'" />
-
-              <!-- Tile js end -->
+          <div class="right">
+            <div class="launch-date">
+              Launching July 23 20:00 UTC
             </div>
           </div>
-        </div>
       </div>
     </section>
     <!--Home Section End -->
-    <section class="authentication-form coming-soon">
+    <div class="coming-soon">
       <div class="innerpage-decor">
         <div class="innerpage-circle1">
           <img :src="'../assets/images/Testimonial2.png'" alt="" />
@@ -62,8 +57,8 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xl-6 offset-xl-3">
-            <div class="fadeInLeft-land-caption text-center">
+          <div class="video-container">
+            <!-- <div class="fadeInLeft-land-caption text-center">
               <h1 class="color">LATEST OTTER NEWS</h1> 
               <div class="">
                 <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
@@ -76,11 +71,13 @@
                   Otter IDO coming soon...
                 </div>
               </div>
-            </div>
+            </div> -->
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/cDGtnT0Mpmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
+        
       </div>
-    </section>
+    </div>
     <!-- About Start  -->
     <About />
     <!-- About End -->
@@ -92,7 +89,7 @@
     <!-- testimonial Section End -->
     <Team />
     <!-- Contact Section start -->
-      <Roadmap />
+    <Roadmap />
     <!-- Contact Section End -->
 
     <!--Subscribe section start-->
@@ -148,6 +145,52 @@ export default {
 </script>
 
 <style lang="css">
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+.container {
+  flex-direction: column;
+}
+}
+.launch-date {
+  width: max-content;
+  height: 1em;
+  z-index: 100;
+  font-weight: bold;
+  font-size: 1.5em;
+  background: white;
+  padding: 0.5em 0.5em 2em 0.5em;
+  border-radius: 1em;
+  font-style: italic;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subtitle {
+  text-align: center;
+  line-height: 1em;
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 75vw;
+  height: 100%;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 40%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
 .font {
   font-family: pacifico, cursive;
 }

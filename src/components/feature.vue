@@ -30,17 +30,10 @@
           <div class="row">
             <div class="col-sm-12 mrgn-md-top">
               <h2 class="title">Why use<span> Otter Pocket?</span></h2>
-              <p class="title">
-                All file storage applications are on centralized servers. What
-                would happen if their servers go down? If a government agency
-                wanted to censor your media? And all charge an expensive monthly
-                price or have a file size restriction. That's where
-                <span> Otter Pocket</span> comes in.
-                <strong
-                  >Your Files are stored in a decentralized fashion on the IPFS
-                  protocol, and the location of those files (in a hash) are
-                  stored in your blockchain wallet on the Polygon Network!
-                </strong>
+              <p class="title" style="font-weight:bold;">
+                Server's crash or data can be lost or censored. Nobady wants that, so we've developed an app that uses 
+                IPFS technology; instead of storing data on central servers, like corporations do, we store the data on nodes that belong to people just like you!
+                No monthly fees, no account needed and no file limits!
               </p>
             </div>
             <div class="col-12 col-md-6">

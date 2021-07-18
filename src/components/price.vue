@@ -71,6 +71,18 @@
               View WhitePaper
             </a>
           </button>
+                    <button
+            type="button"
+            class="btn btn-custom theme-color theme-color"
+            style="margin-left: 5em; margin-top: 5em;"
+          >
+            <a
+              style="color: white;"
+              href="https://gateway.pinata.cloud/ipfs/QmcCRRX8sXww9TZTyQKQyZ7vRDBBegT6oN9r688wYLqJ9i"
+            >
+              Audit
+            </a>
+          </button>
         </div>
       </div>
     </section>

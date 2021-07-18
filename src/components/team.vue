@@ -77,7 +77,23 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="team-item">
+                    <div class="team-block">
+                      <div class="team-box">
+                        <div class="team-avtar">
+                          <img :src='"../assets/images/avtar/dan-jovis-clear.png"' style="object-fit: contain; background-color: #f3f4f8;" alt="">
+                        </div>
+                        <div class="team-text">
+                          <h3>Karemjit Jovis</h3>
+                          <h6>Business Analyst </h6>
+                        </div>
+                        <div class="overlay">
+                          <ul class="team-social">
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </carousel>
             </div>
           </div>

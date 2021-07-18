@@ -15,10 +15,8 @@
           <div class="about-contain" style="position: relative; z-index: 99;">
             <div>
               <h2 class="title">What is <span> Otter Pocket?</span></h2>
-              <p class="caption-about">
-                Otter Pocket is a file storage and sharing application on the
-                Polygon Network blockchain and the IPFS protocol. What does that
-                Mean?
+              <p class="caption-about" style="font-weight: bold;">
+                Otter Pocket let's you store any data on the blockchain. Using the latest IPFS technology with the Polygon blockchain. We take away the need for any data to be on centralized servers. The Data is Yours.
               </p>
               <div class="row sm-mb">
                 <div class="col-6">

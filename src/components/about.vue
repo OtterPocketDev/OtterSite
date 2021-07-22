@@ -16,7 +16,7 @@
             <div>
               <h2 class="title">What is <span> Otter Pocket?</span></h2>
               <p class="caption-about" style="font-weight: bold;">
-                Otter Pocket let's you store any data on the blockchain. Using the latest IPFS technology with the Polygon blockchain. We take away the need for any data to be on centralized servers. The Data is Yours.
+                Otter Pocket let's you store any file on the blockchain. Using the latest in IPFS technology with the Polygon network, we take away the need for any data to be stored centralized servers. The data is yours.
               </p>
               <div class="row sm-mb">
                 <div class="col-6">
@@ -32,7 +32,7 @@
                         </div>
                       </div>
                       <div class="about-text">
-                        <h3>No File Limits at all</h3>
+                        <h3>No file limits at all</h3>
                       </div>
                     </li>
                     <li class="abt-hover">
@@ -46,7 +46,7 @@
                         </div>
                       </div>
                       <div class="about-text">
-                        <h3>No Accounts or logins needed</h3>
+                        <h3>No accounts or logins</h3>
                       </div>
                     </li>
                   </ul>
@@ -78,7 +78,7 @@
                         </div>
                       </div>
                       <div class="about-text">
-                        <h3>Easily Share Links</h3>
+                        <h3>Easily share the data</h3>
                       </div>
                     </li>
                   </ul>

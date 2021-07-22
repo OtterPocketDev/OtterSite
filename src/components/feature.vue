@@ -31,7 +31,7 @@
             <div class="col-sm-12 mrgn-md-top">
               <h2 class="title">Why use<span> Otter Pocket?</span></h2>
               <p class="title" style="font-weight:bold;">
-                Server's crash or data can be lost or censored. Nobady wants that, so we've developed an app that uses 
+                Server's crash or data can be lost or sold, or even stolen! Nobody wants that, so we've developed an app that uses 
                 IPFS technology; instead of storing data on central servers, like corporations do, we store the data on nodes that belong to people just like you!
                 No monthly fees, no account needed and no file limits!
               </p>
@@ -49,7 +49,7 @@
                     <p>
                       All the metadata is stored in the blockchain. Meaning it
                       is permenant and anonymous, only accesible from your
-                      wallet
+                      wallet.
                     </p>
                   </div>
                 </li>
@@ -62,7 +62,7 @@
                   </div>
                   <div>
                     <p>
-                      The Otter Pocket Utility token is burnt after every file
+                      The Otter Pocket utility token is burnt after every file
                       upload. Increasing it's value.
                     </p>
                   </div>
@@ -81,7 +81,7 @@
                   <div>
                     <p>
                       Harnessing the incredibly low transaction fees of the
-                      Polygon Network
+                      Polygon network.
                     </p>
                   </div>
                 </li>
@@ -90,7 +90,7 @@
                     <img src="../assets/images/icon/4.png" alt="icon" />
                   </div>
                   <div class="feature-subtitle">
-                    <h3>100% secure</h3>
+                    <h3>100% Secure</h3>
                   </div>
                   <div >
                     <p>

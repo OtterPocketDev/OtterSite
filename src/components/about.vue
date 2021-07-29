@@ -1,97 +1,26 @@
 <template>
   <!-- About Start -->
   <section id="about" class="about">
-    <div class="about-decor">
-      <div class="about-circle1" style="z-index: 2;">
-        <img src="../assets/images/team1.png" alt="team1" />
-      </div>
-      <div class="about-circle2" style="z-index: 1;">
-        <img src="../assets/images/main-banner1.png" alt="banner1" />
-      </div>
-    </div>
-    <div class="container">
+  <div class="container">
       <div class="row ">
-        <div class="col-md-5">
+        <div class="col-md-7">
           <div class="about-contain" style="position: relative; z-index: 99;">
+            
             <div>
-              <h2 class="title">What is <span> Otter Pocket?</span></h2>
+              <h2 class="title f-color font" style="font-weight: bold; margin-top: 50px;">
+              No more servers, no more accounts.</h2>
               <p class="caption-about" style="font-weight: bold;">
-                Otter Pocket let's you store any file on the blockchain. Using the latest in IPFS technology with the Polygon network, we take away the need for any data to be stored centralized servers. The data is yours.
+                We thought it was about time somebody came up with a decentralised way to store data. Using IPFS technology, we've built a dApp that will let you store any file on nodes rather than corporate servers. What's more, you don't need an account and there's no file size restrictions.
               </p>
-              <div class="row sm-mb">
-                <div class="col-6">
-                  <ul class="about-style">
-                    <li class="abt-hover">
-                      <div class="about-icon">
-                        <div class="icon-hover">
-                          <img
-                            width="25px"
-                            src="../assets/images/icon/OPIC1.png"
-                            alt="easy-to-customized"
-                          />
-                        </div>
-                      </div>
-                      <div class="about-text">
-                        <h3>No file limits at all</h3>
-                      </div>
-                    </li>
-                    <li class="abt-hover">
-                      <div class="about-icon">
-                        <div class="icon-hover">
-                          <img
-                            width="25px"
-                            src="../assets/images/icon/OPIC4.png"
-                            alt="easy-to-use"
-                          />
-                        </div>
-                      </div>
-                      <div class="about-text">
-                        <h3>No accounts or logins</h3>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-6">
-                  <ul class="about-style">
-                    <li class="abt-hover">
-                      <div class="about-icon">
-                        <div class="icon-hover">
-                          <img
-                            width="25px"
-                            src="../assets/images/icon/OPIC2.png"
-                            alt="Awasome-Design"
-                          />
-                        </div>
-                      </div>
-                      <div class="about-text">
-                        <h3>Secure</h3>
-                      </div>
-                    </li>
-                    <li class="abt-hover">
-                      <div class="about-icon">
-                        <div class="icon-hover">
-                          <img
-                            width="25px"
-                            src="../assets/images/icon/OPIC3.png"
-                            alt="SEO-Friendly"
-                          />
-                        </div>
-                      </div>
-                      <div class="about-text">
-                        <h3>Easily share the data</h3>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
-        <div class="col-md-7 d-medium-none">
+        <div class="col-md-5 d-medium-none">
           <div class="">
             <div class="about-phone">
               <img
-                src="../assets/images/about.png"
+                src="../assets/images/OPWG1V5.png"
                 class="img-fluid"
                 alt="aboutus"
               />

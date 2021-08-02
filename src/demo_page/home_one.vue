@@ -14,7 +14,7 @@
                 <h1 class="title f-color font">
                   <span class="f-bold f-color font">Welcome to decentralized data storage.</span>
                 </h1>
-                <p class="title" style="font-weight:bold;">With the power of polygon & IPFS technology you can now host any file on the blockchain!</p>
+                <p class="title" style="font-weight:bold;">With the power of the Polygon Network & IPFS technology you can now host any file on the blockchain!</p>
                 <div class="top-margin">
                   <button
                     type="button"

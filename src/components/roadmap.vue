@@ -13,19 +13,21 @@
           <img :src="'../assets/images/team.png'" alt="" />
         </div>
       </div>
-    
-            <img
-                margin-left="50px"
-                width="568px"
-                src="../assets/images/Comp_3.gif"
-                class="img-fluid"
-                alt="otterpocket"
-              />
-              
+      <div class="token-wrapper">
+
+
+      <img
+          margin-left="50px"
+          width="568px"
+          src="../assets/images/Comp_3.gif"
+          class="img-fluid"
+          alt="otterpocket"
+        />
+        
               
           
 
-      <div class="offset-lg-0 col-lg-7">
+      <div class="offset-lg-0 col-lg-7 otter-description">
       
           <div class="row">
             <div class="col-sm-10 mrgn-md-top">
@@ -67,6 +69,8 @@
           </div>
         </div>
       </div>
+            </div>
+
 </section>
   </div>
 </template>
@@ -114,5 +118,12 @@ export default {
 <style>
 .pie-chart {
   background: #4698fd93 !important;
+}
+.token-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.otter-description {
+  min-width: 600px;
 }
 </style>

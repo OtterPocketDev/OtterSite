@@ -35,9 +35,9 @@
               <button
                     type="button"
                     class="btn btn-custom theme-color theme-color">
-                      <div @click="showDisclaimer=true">
+                      <div @click="showDisclaimer=!showDisclaimer">
                         <a style="color:white;">
-                          Disclaimer
+                          Disclaimer 
                             </a></div>
                   </button>
                   <div class="disclaimer" v-if="showDisclaimer">
@@ -124,27 +124,25 @@ If you have any questions about this Disclaimer, You can contact Us:
     <!-- Tap on Ends -->
   </div>
 </template>
-<script
+<script>
 
-data() {
-
-    return {
-       showDisclaimer: false,
-    }
-  }
 
 export default {
-  name: "Footer"
+  name: "Footer",
+  data() {
+    return {
+      showDisclaimer: false,
+    }
+  }
 };
 
 </script>
 
 <style>
-
-.disclaimer {
-background-color: white;
-font-size: 40px;
-margin-right: 100px;
-margin-left: 100px;
-}
+  .disclaimer {
+  background-color: white;
+  font-size: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  }
 </style>

@@ -4,25 +4,17 @@
     <section id="home" class="home">
       <div class="home-decor">
         <div class="home-circle1">
-          <img src="../assets/images/main-banner3.png" alt="" />
-        </div>
-        <div class="home-circle2">
-          <img src="../assets/images/main-banner12.png" alt="" />
-        </div>
-        <div class="home-circle3">
-          <img src="../assets/images/main-banner1.png" alt="" />
+          
         </div>
       </div>
       <div class="container">
           <div class="">
             <div class="home-contain">
               <div>
-                <h1>
-                  <span class="f-bold font color">OTTER</span>
-                  <span class="f-bold f-color font">Pocket</span>
+                <h1 class="title f-color font">
+                  <span class="f-bold f-color font">Welcome to decentralized data storage.</span>
                 </h1>
-                <h4>Decentralized File Storage</h4>
-                <h5>On the Polygon Network</h5>
+                <p class="title" style="font-weight:bold;">With the power of polygon & IPFS technology you can now host any file on the blockchain!</p>
                 <div class="top-margin">
                   <button
                     type="button"
@@ -31,7 +23,7 @@
                     <a
                       href="https://app.otterpocket.io"
                       style="color:white;"
-                      >OtterPocket
+                      >Launch dApp
                     </a>
                   </button>
                 </div>
@@ -39,9 +31,17 @@
             </div>
           </div>
           <div class="right">
-            <div class="launch-date">
-              Launching July 23 20:00 UTC
-            </div>
+<div class="col-md-11 d-medium-none">
+          <div class="">
+            <div class="about-phone">
+            <img
+                src="../assets/images/OPWGHOMEV2.png"
+                class="img-fluid"
+                alt="otterpocket"
+              />
+          </div>
+          </div>
+          </div>
           </div>
       </div>
     </section>
@@ -58,26 +58,22 @@
       <div class="container-fluid">
         <div class="row">
           <div class="video-container">
-            <!-- <div class="fadeInLeft-land-caption text-center">
-              <h1 class="color">LATEST OTTER NEWS</h1> 
-              <div class="">
-                <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
-                 <img src="../assets/images/icon/OPIC5.png" width="30" alt=""> Succesful Airdrop June 25th
-                </div>
-                <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
-                 <img src="../assets/images/icon/OPIC5.png" width="30" alt=""> Presale Completed July 6th
-                </div>
-                <div style="margin: 4em 0; font-size: 1.2em; font-weight: bold; ">
-                  Otter IDO coming soon...
-                </div>
-              </div>
-            </div> -->
-            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/cDGtnT0Mpmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="responsive-iframe" src="https://gateway.pinata.cloud/ipfs/QmZU18jKwTsZunm2cVFEAAn7EP77wn9gi8pFRqFtq63ndU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         
       </div>
     </div>
+    <div class="container">
+          <div class="coming-soon" style="margin-top:50px;">
+            
+              <div>
+            
+              <p class="title" style="font-weight:bold;">*Hosted on IPFS.</p>
+              
+              </div>
+              </div>
+              </div>
     <!-- About Start  -->
     <About />
     <!-- About End -->
@@ -87,14 +83,17 @@
     <!-- Feature Section End -->
     <!-- team Section End -->
     <!-- testimonial Section End -->
-    <Team />
+
     <!-- Contact Section start -->
-    <Roadmap />
+    <Price />
     <!-- Contact Section End -->
 
     <!--Subscribe section start-->
-    <Price />
+    <Roadmap />
     <!--Subscribe section Ends-->
+
+  
+    <Team />
 
     <!--Map Section Start-->
     <!--Map Section Ends-->
@@ -183,7 +182,8 @@ export default {
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  width: 75vw;
+  margin-top: 40px;
+  width: 78vw;
   height: 100%;
 }
 .video-container {
@@ -192,7 +192,7 @@ export default {
   padding-top: 40%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 .font {
-  font-family: pacifico, cursive;
+  font-family: Poppins,sans-serif, cursive;
 }
 .color {
   color: #46cdfd;

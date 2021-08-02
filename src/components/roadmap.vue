@@ -22,6 +22,7 @@
           src="../assets/images/Comp_3.gif"
           class="img-fluid"
           alt="otterpocket"
+          style="max-width: 70vw;"
         />
         
               
@@ -124,6 +125,6 @@ export default {
   flex-wrap: wrap;
 }
 .otter-description {
-  min-width: 600px;
+  max-width: 700px;
 }
 </style>

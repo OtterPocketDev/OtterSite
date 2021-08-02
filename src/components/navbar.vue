@@ -11,11 +11,11 @@
       <b-navbar-brand class="navbar-brand" href="#home"
         >
         <img src="../assets/images/icon/logo.svg" width="150" style="margin-left:29px;" alt="">
-        </b-navbar-brand>
+      </b-navbar-brand>
       <b-collapse class="default-nav" is-nav id="nav_collapse">
-        <b-navbar-nav class="navbar-nav ml-auto" id="mymenu">
+        <b-navbar-nav class="navbar-nav ml-auto damenu" id="mymenu" >
           
-
+    <div class="mymenu">
           <b-nav-item href="https://otterpocket.medium.com">
             <img
               width="50em"
@@ -42,7 +42,7 @@
               src="../assets/images/icon/OPTELEGRAM.svg"
               alt="logo"
           /></b-nav-item>
-         
+     </div>    
             <button
                     type="button"
                     class="btn btn-custom theme-color theme-color"
@@ -52,10 +52,8 @@
                       >Otter dApp
                     </a>
                   </button>
-          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
-    </div>
     </div>
   </b-navbar>
 </template>
@@ -64,3 +62,9 @@ export default {
   name: "Navbar"
 };
 </script>
+<style scoped>
+.mymenu {
+  display: flex;
+  flex-direction: row;
+}
+</style>

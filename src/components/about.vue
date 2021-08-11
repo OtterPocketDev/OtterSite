@@ -7,7 +7,7 @@
               <h2 class="title f-color font" style="font-weight: bold; margin-top: 50px;">
               No more servers, no more accounts.</h2>
               <p class="caption-about" style="font-weight: bold;">
-                We thought it was about time somebody came up with a decentralised way to store data. Using IPFS technology, we've built a dApp that will let you store any file on nodes rather than corporate servers. What's more, you don't need an account and there's no file size restrictions.
+                We thought it was about time somebody came up with a decentralized way to store data. Using IPFS technology, we've built a dApp that will let you store any file on nodes rather than corporate servers. What's more, you don't need an account and there's no file size restrictions.
               </p>
             </div>
         </div>

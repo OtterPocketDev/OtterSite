@@ -58,8 +58,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="video-container">
-            <iframe class="responsive-iframe" src="https://gateway.pinata.cloud/ipfs/QmZU18jKwTsZunm2cVFEAAn7EP77wn9gi8pFRqFtq63ndU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+<iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/cDGtnT0Mpmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
         </div>
         
       </div>
@@ -69,7 +68,6 @@
             
               <div>
             
-              <p class="title" style="font-weight:bold;">*Hosted on IPFS.</p>
               
               </div>
               </div>
@@ -91,9 +89,6 @@
     <!--Subscribe section start-->
     <Roadmap />
     <!--Subscribe section Ends-->
-
-  
-    <Team />
 
     <!--Map Section Start-->
     <!--Map Section Ends-->
@@ -184,12 +179,14 @@ export default {
   margin: 0 auto;
   margin-top: 40px;
   width: 78vw;
-  height: 100%;
+  height: 80%;
 }
 .video-container {
-  position: relative;
-  width: 100%;
-  padding-top: 40%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
 }
 .font {
   font-family: Poppins,sans-serif, cursive;

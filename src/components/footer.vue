@@ -20,6 +20,9 @@
         <a href="https://otterpocket.medium.com" 
           ><img width="50em" src="../assets/images/icon/OPMEDIUM.svg" style="margin: 0 2em;" alt="logo"
         /></a>
+        <a href="https://discord.gg/v7MCQ6k4" 
+          ><img width="32em" src="../assets/images/icon/discord-icon.png" style="margin: 0.6em 1.5em 0 0" alt="logo"
+        /></a>
         <a href="https://www.instagram.com/otterpocketofficial/"
           ><img width="50em" src="../assets/images/icon/OPINSTAGRAM.svg" alt="logo"
         /></a>
@@ -142,7 +145,7 @@ export default {
   .disclaimer {
   background-color: white;
   font-size: 40px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
   }
 </style>

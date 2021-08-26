@@ -16,16 +16,7 @@
       <div class="token-wrapper">
 
 
-      <img
-          margin-left="50px"
-          width="568px"
-          src="../assets/images/Comp_3.gif"
-          class="img-fluid"
-          alt="otterpocket"
-          style="max-width: 70vw;"
-        />
-        
-              
+      <div style="width:586px;"></div>
           
 
       <div class="offset-lg-0 col-lg-7 otter-description">
@@ -57,7 +48,7 @@
                     class="btn btn-custom theme-color theme-color"
                   >
                     <a
-                      href="https://quickswap.exchange/#/swap?outputCurrency=0xe718eda678aff3f8d1592e784652bcbeeb49e352"
+                      href="https://dex.guru/token/0xe718eda678aff3f8d1592e784652bcbeeb49e352-polygon/"
                       style="color:white;"
                       >Trading Chart
                     </a>

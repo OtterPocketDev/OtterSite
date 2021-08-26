@@ -48,12 +48,6 @@
     <!--Home Section End -->
     <div class="coming-soon">
       <div class="innerpage-decor">
-        <div class="innerpage-circle1">
-          <img :src="'../assets/images/Testimonial2.png'" alt="" />
-        </div>
-        <div class="innerpage-circle2">
-          <img :src="'../assets/images/Testimonial1.png'" alt="" />
-        </div>
       </div>
       <div class="container-fluid">
         <div class="row">
@@ -100,40 +94,18 @@
   </div>
 </template>
 <script>
-import Vue from "vue";
-import VueCountdown from "@xkeshi/vue-countdown";
-Vue.component(VueCountdown.name, VueCountdown);
+import About from '../components/about.vue';
+import Price from '../components/price.vue';
+import Roadmap from '../components/roadmap.vue';
+import Footer from '../components/footer.vue';
+
 export default {
   name: "Home_one",
-
-  CbeforeCreate: function() {
-    document.body.className = "";
-  },
-  mounted() {
-    const date = new Date(Date.UTC(2021, 5, 18, 16, 0, 0));
-    let countdown = setInterval(() => {
-      let now = new Date().getTime();
-      var distance = date - now;
-
-      this.countdown.days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      this.countdown.hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
-      this.countdown.minutes = Math.floor(
-        (distance % (1000 * 60 * 60)) / (1000 * 60)
-      );
-      this.countdown.seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    }, 1000);
-  },
-  data() {
-    return {
-      countdown: {
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
-      }
-    };
+  components: {
+    About,
+    Price,
+    Roadmap,
+    Footer,
   }
 };
 </script>
@@ -182,7 +154,7 @@ export default {
   height: 80%;
 }
 .video-container {
-margin: 0 auto;
+    margin: 0 auto;
     position: relative;
     width: 100%;
     height: 0;

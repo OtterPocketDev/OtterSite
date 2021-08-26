@@ -1,10 +1,6 @@
 <template>
   <div>
     <section id="tokenomics" class="authentication-form not-found">  
-      <div class="innerpage-decor">
-        <div class="innerpage-circle1"><img :src='"../assets/images/Testimonial2.png"' alt=""></div>
-        <div class="innerpage-circle2"><img :src='"../assets/images/Testimonial1.png"' alt=""></div>
-      </div>
       <div class="text-center">
         <h2 class="otter-title f-color font" style="font-weight: bold;">Connecting you around the world.</h2>
         <div class="col-md-30 offset-md-0 col-12">
